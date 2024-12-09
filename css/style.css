@@ -1,16 +1,106 @@
 /* comon css starts here */
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-ol.ul{
-    list-style-type: none;
+ol.ul {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  font-family: "Poppins", serif;
 }
 /* comon css end here */
+/* header css start */
+#header .top {
+  background: #000;
+}
+#header .top .logo {
+  width: 11%;
+}
+#header .top_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 10px 0;
+}
+#header .top .input {
+  width: 45%;
+}
+#header .input {
+  padding: 5px 0;
+  position: relative;
+}
+#header .input input {
+  border: none;
+  padding: 0 40px 0 20px;
+  font-weight: normal;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+#header .input .search {
+  font-size: 15px;
+  height: 42px;
+  background: #fff;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+#header .input .icon {
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+#header .input .icon i {
+  font-size: 18px;
+}
+#header .top .items {
+  width: 40%;
+}
+#header .items {
+  display: flex;
+  column-gap: 25px;
+}
+#header .item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+#header .item .icon i {
+  color: #ef4a23;
+  font-size: 24px;
+  width: 30px;
+  height: 36px;
+  line-height: 36px;
+}
+#header .item .content h5 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+}
+#header .item .content p {
+  font-size: 11px;
+  font-weight: normal;
+  color: #838383;
+}
+#header .button a{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #00237e, #3749bb, #0bc1e9, #3749bb, #00237e);
+    background-size: 400% 400%;
+    border: none;
+    line-height: 42px;
+}
