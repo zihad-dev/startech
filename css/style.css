@@ -287,7 +287,6 @@ header {
 .nav-nav .multi-col .drop-down>ul {
     display: inline-block;
     position: relative;
-    float: left;
 }
 
 .nav-nav .drop-down li.has-child:after {
