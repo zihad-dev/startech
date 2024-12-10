@@ -150,6 +150,10 @@ a {
   border-radius: 15px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
+  transition: all linear.2s;
+}
+#category .cat_wrapper:hover p {
+  color: #ef4a23;
 }
 #category .cat_wrapper img {
   width: 48px;
@@ -159,7 +163,9 @@ a {
   font-size: 14px;
   color: #01132d;
   line-height: 26px;
+
 }
+
 #category .find_store {
   background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
   animation: gradient 15s ease infinite;
