@@ -369,6 +369,7 @@ a {
 #category .find_store .left {
   display: flex;
   align-items: center;
+  column-gap: 10px;
 }
 
 #category .find_store .left i {
