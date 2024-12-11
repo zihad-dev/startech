@@ -444,3 +444,28 @@ a {
 }
 
 /* shop part end  */
+* {
+  padding: 0;
+  margin: 0;
+}
+ol.ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* comon css end here */
+/* shop css starts here  */
+#shop .shop_heading {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rebeccapurple;
+}
+
+/* shop css end here  */
