@@ -69,7 +69,7 @@
         </div>
         <!-- nav -->
         <nav class="nav">
-            <div class="containers">
+            <div class="container">
                 <ul class="nav-nav">
                     <li class="nav-item has-child">
                         <a class="nav-link" href="#">Desktop</a>
@@ -5006,163 +5006,270 @@
     </header>
     <!-- header part end -->
     <!-- bnner part start -->
-    <section id="bnner">
-        <div class="container"></div>
-    </section>
-    <!-- bnner part end -->
-    <!-- category part start -->
-    <section id="category">
+    <div class="f-btn mc-toggler" id="cart">
+        <i class="material-icons">shopping_basket</i>
+        <div class="label">Cart</div>
+        <span class="counter">0</span>
+    </div>
+    <div class="f-btn cmpr-toggler" id="cmpr-btn">
+        <i class="material-icons">library_add</i>
+        <div class="label">Compare</div>
+        <span class="counter">0</span>
+    </div>
+    <div class="drawer cmpr-panel " id="cmpr-panel">
+        <div class="title">
+            <p>Compare Product</p>
+            <span class="cmpr-toggler"><i class="material-icons">close</i></span>
+        </div>
+        <div class="content">
+            <div class="loader"></div>
+        </div>
+        <div class="footer btn-wrap"></div>
+    </div>
+
+    <div class="drawer m-cart" id="m-cart">
+        <div class="title">
+            <p>YOUR CART</p>
+            <span class="mc-toggler"><i class="material-icons">close</i></span>
+        </div>
+        <div class="content">
+            <div class="loader"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+    <div class="bg-gray content p-tb-30">
         <div class="container">
-            <div class="header">
-                <h3>Featured Category</h3>
-                <p>Get Your Desired Product from Featured Category!</p>
+            <div class="row">
+                <div class="col-md-12 col-lg-9">
+                    <div class="home-slider">
+                        <div class="slide">
+                            <a href="#"><img src="images/12-12-year-end-sale-home-banner-982x500.webp" alt="12.12 Super Sale" class="img-responsive" width="982" height="500" /></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/online-laptop-mela-offer-update-982x500.webp" alt="Laptop Fair" class="img-responsive" width="982" height="500" /></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/winter-desktop-web-banner-982x500.webp" alt="winter-desktop-pc-offer" class="img-responsive" width="982" height="500" /></a>
+                        </div>
+                        <div class="slider-dot"><span class="dot"></span><span class="dot active"></span><span class="dot"></span></div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="mdl-compare">
+                        <h4>Compare Products</h4>
+                        <p>Choose Two Products to Compare</p>
+                        <form method="post" action="#" class="form-cmpr">
+                            <input type="hidden" name="product_id">
+                            <div class="cmpr-field">
+                                <i class="material-icons">search</i>
+                                <input class="cmpr-product" type="text" placeholder="Search and Select Product" />
+                                <input type="hidden" class="prod-id">
+                            </div>
+                            <div class="cmpr-field">
+                                <i class="material-icons">search</i>
+                                <input class="cmpr-product" type="text" placeholder="Search and Select Product" />
+                                <input type="hidden" class="prod-id">
+                            </div>
+                            <button class="btn st-outline">View Comparison</button>
+                        </form>
+                    </div>
+                    <div class="ads loaded">
+                        <a href="#"><img src="images/job-career-2024.webp" alt="Home | Career" width="300" height="193"></a>
+                    </div>
+                </div>
             </div>
-            <div class="cat_item">
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 1.png" alt="">
-                        <p>Geyser Water Heater</p>
-                    </div>
-
+            <div class="row r-lnk-wrap m-home">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="#" class="c-card ws-box">
+                        <div class="ic"><i class="material-icons">laptop</i></div>
+                        <div><span class="blurb">Laptop Finder</span>
+                            <p class="m-hide">Find Your Laptop Easily</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 2.png" alt="">
-                        <p>Drone</p>
-                    </div>
-
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener" class="c-card ws-box">
+                        <div class="ic"><i class="material-icons">feedback</i></div>
+                        <div><span class="blurb">Raise a Complain</span>
+                            <p class="m-hide">Share your experience</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 3.png" alt="">
-                        <p>Gimbal</p>
-                    </div>
-
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener" class="c-card ws-box">
+                        <div class="ic"><i class="material-icons">help</i></div>
+                        <div><span class="blurb">Online Support</span>
+                            <p class="m-hide">Get Online Support</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 4.png" alt="">
-                        <p>Printer Paper</p>
-                    </div>
-
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener" class="c-card ws-box">
+                        <div class="ic"><i class="material-icons">settings</i></div>
+                        <div><span class="blurb">Servicing Center</span>
+                            <p class="m-hide">Repair Your Device</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 5.png" alt="">
-                        <p>Laptop Accessories</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 6.png" alt="">
-                        <p>
-                            TV
-                        </p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 7.png" alt="">
-                        <p>Mobile Phone</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 8.png" alt="">
-                        <p>Mobile Accessories</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 9.png" alt="">
-                        <p>Portable Power Station</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 10.png" alt="">
-                        <p>VR (Virtual Reality)</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 11.png" alt="">
-                        <p>Smart Watch</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 12.png" alt="">
-                        <p>Action Camera</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 13.png" alt="">
-                        <p>Earphone</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 14.png" alt="">
-                        <p>Earbuds</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 15.png" alt="">
-                        <p>Bluetooth Speakers</p>
-                    </div>
-
-                </div>
-                <div class="item_box">
-                    <div class="cat_wrapper">
-                        <img src="./images/item 16.png" alt="">
-                        <p>Gaming Console</p>
-                    </div>
-
-                </div>
-
             </div>
-            <div class="find_store">
-                <div class="left">
-                    <div class="icon">
-                        <i class="fa-solid fa-location-dot"></i>
+            <div class="sliding_text_wrap">
+                <marquee direction="left">On Wednesday, December 11th, all our outlets are open except the Pragati Sharani &amp; Uttara Syed Grand Center outlet. Additionally, our online activities are open and operational.</marquee>
+            </div>
+            <!-- bnner part end -->
+            <!-- category part start -->
+            <section id="category">
+                <div class="container">
+                    <div class="header">
+                        <h3>Featured Category</h3>
+                        <p>Get Your Desired Product from Featured Category!</p>
                     </div>
-                    <div class="text">
-                        <h3>20+ Physical Stores</h3>
-                        <p>Visit Our Store & Get Your Desired IT Product!</p>
+                    <div class="cat_item">
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 1.png" alt="">
+                                <p>Geyser Water Heater</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 2.png" alt="">
+                                <p>Drone</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 3.png" alt="">
+                                <p>Gimbal</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 4.png" alt="">
+                                <p>Printer Paper</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 5.png" alt="">
+                                <p>Laptop Accessories</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 6.png" alt="">
+                                <p>
+                                    TV
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 7.png" alt="">
+                                <p>Mobile Phone</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 8.png" alt="">
+                                <p>Mobile Accessories</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 9.png" alt="">
+                                <p>Portable Power Station</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 10.png" alt="">
+                                <p>VR (Virtual Reality)</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 11.png" alt="">
+                                <p>Smart Watch</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 12.png" alt="">
+                                <p>Action Camera</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 13.png" alt="">
+                                <p>Earphone</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 14.png" alt="">
+                                <p>Earbuds</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 15.png" alt="">
+                                <p>Bluetooth Speakers</p>
+                            </div>
+
+                        </div>
+                        <div class="item_box">
+                            <div class="cat_wrapper">
+                                <img src="./images/item 16.png" alt="">
+                                <p>Gaming Console</p>
+                            </div>
+
+                        </div>
+
                     </div>
-                </div>
-                <div class="right">
-                    <a href="#">Find Our Store
+                    <div class="find_store">
+                        <div class="left">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <h3>20+ Physical Stores</h3>
+                                <p>Visit Our Store & Get Your Desired IT Product!</p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <a href="#">Find Our Store
               <i class="fa-solid fa-magnifying-glass"></i>
             </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- category part end -->
-    <!-- leading part start -->
-    <section id="leading ">
-        <div class="container"></div>
-    </section>
-    <!-- leading part end -->
-    <!-- footer part start -->
-    <footer>
-        <div class="container"></div>
-    </footer>
-    <!-- footer part end -->
+            </section>
+            <!-- category part end -->
+            <!-- leading part start -->
+            <section id="leading ">
+                <div class="container"></div>
+            </section>
+            <!-- leading part end -->
+            <!-- footer part start -->
+            <footer>
+                <div class="container"></div>
+            </footer>
+            <!-- footer part end -->
 </body>
 
 </html>
