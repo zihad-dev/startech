@@ -818,3 +818,249 @@ input:focus {
 
 
 /* category part end  */
+
+
+/* footer part start  */
+
+footer {
+    background: #081621;
+    padding: 50px 0 0;
+    position: relative;
+}
+
+.main-footer {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .org-info {
+    flex: 1 1 25%;
+    padding-left: 50px;
+}
+
+footer .about-us {
+    flex: 1 1 50%;
+}
+
+footer .contact-us {
+    flex: 1 1 25%;
+    padding-right: 50px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer h4 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+footer .org-info p {
+    color: #838383;
+    font-size: 14px;
+}
+
+footer .org-info p b {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+footer .org-info p b.store-name {
+    color: #fff;
+    font-weight: normal;
+}
+
+footer .about-us {
+    padding-left: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+    width: 32%;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 0 20px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #838383;
+    white-space: nowrap;
+}
+
+footer ul li a:hover {
+    color: #ef4a23;
+}
+
+.footer-big-btn {
+    display: block;
+    padding: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-big-btn:hover {
+    box-shadow: 0 -70px 0 rgba(0, 0, 0, 0.2) inset;
+    border-color: #ef4a23;
+    text-decoration: none;
+}
+
+.footer-big-btn .ic {
+    color: #fff;
+    float: left;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 0 10px 0 20px;
+    margin-right: 20px;
+    border-right: 1px solid #333;
+}
+
+.footer-big-btn h5 {
+    color: #ef4a23;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.footer-big-btn p {
+    margin: 0 0 4px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #838383;
+}
+
+.mail {
+    color: #ef4a23;
+}
+
+.sub-footer {
+    padding: 15px 0 25px;
+}
+
+.sub-footer p {
+    font-size: 12px;
+    margin: 0;
+    color: #838383;
+}
+
+.sub-footer .powered-by {
+    text-align: right;
+}
+
+.social-footer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    display: flex;
+}
+
+.social-footer .app-links {
+    color: #838383;
+    font-size: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.social-footer .app-link {
+    display: flex;
+    align-items: center;
+    border: 1px solid #666666;
+    border-radius: 7px;
+    padding: 6px 10px 6px 6px;
+    margin-left: 20px;
+}
+
+.social-footer .app-link-items {
+    display: flex;
+}
+
+.social-footer a.app-link:hover {
+    text-decoration: none;
+    border-color: #fff;
+    ;
+}
+
+.social-footer a.app-link .icon-sprite {
+    margin-right: 5px;
+}
+
+.social-footer .app-link-text span {
+    display: block;
+}
+
+.social-footer .app-link-text span.download {
+    font-size: 10px;
+    line-height: 1;
+    color: #838383;
+    margin-bottom: 2px;
+}
+
+.social-footer .app-link-text span.app-store {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+}
+
+footer .social-links {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+footer .social-links a {
+    margin: 0 0 0 6px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+footer .social-links a:hover {
+    background: #ef4a23;
+}
+
+.icon-sprite {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(/fonts/icon-sprite-v4.png) no-repeat 0 0;
+}
+
+.icon-sprite.whatsapp {
+    background-position: -168px 0;
+}
+
+.icon-sprite.youtube {
+    background-position: -72px 0;
+}
+
+.icon-sprite.insta {
+    background-position: -96px 0;
+}
+
+.icon-sprite.playstore {
+    background-position: -120px 0;
+}
+
+.icon-sprite.applestore {
+    background-position: -144px 0;
+}
+
+
+/* footer part end  */
